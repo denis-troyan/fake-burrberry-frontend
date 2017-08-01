@@ -1,0 +1,48 @@
+body {
+
+}
+
+.header-logo-wrapper {
+  margin-top: 1rem; 
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: center;
+}
+
+.underline-wide {
+  border-bottom: solid 1px #c6c6c6;
+}
+.underline-marg {
+  border-bottom: solid 1px #c6c6c6;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.product-title-wrapper {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+}
+
+.product-title { 
+  font-family: Lora;
+  font-size: 1.25rem;
+  font-weight: normal;
+  padding: 0;
+}
+
+.product-image-wrapper {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.product-footer-info { 
+  display: flex;
+  justify-content: space-around;
+
+}
