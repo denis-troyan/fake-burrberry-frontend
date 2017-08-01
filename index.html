@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="style.css">
   
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
@@ -30,42 +30,48 @@
       <h2 class="product-price">110 000 руб.</h2> 
       <p class="product-id">Item 39428531</p>
     </div>
-    <div "product-color">
-      <p>Color: Honey</p>
+    <div class="product-color"> 
+      <p class="product-color">Colour: Honey</p> <!-- хочу чтоб марджин 0 и сюда тоже применялся-->
     </div> 
   
     <div class="product-colorselector-wrapper">
+    
       <button class="colorselector-button colorselector_black"> </button>
       <button class="colorselector-button colorselector_brown colorselector_active"> </button>
-    </div>
-    <div class="underline-marg"> 
-    </div>
+     
+    </div>  
+
+  </div>
+
+  <div class="underline-marg"> 
   </div>
   
-  <button class="selectsize-button">SELECT A SIZE</button>
-  <button class="findinstore-button">FIND IN STORE</button>
-  <button class="sizehelp-button">NEED SIZE HELP?</button>
+  <div class="product-footer-buttons"> 
+    <button class="selectsize-button button-margin">SELECT A SIZE</button>
+    <button class="findinstore-button button-margin">FIND IN STORE</button>
+    <button class="sizehelp-button button-margin">NEED SIZE HELP?</button>
+  </div>
 
   <div class="product-description-wrapper">
-    <header> 
+    <header class="product-description-header">
       <h2>DESCRIPTION</h2>
       <img src="static/triangle_up.svg"> 
     </header>
-    <article class="product-descrtiption-text">
-      <p>A refined car coat crafted in protective cotton gabardine.</p>
-      <p>Invented by Thomas Burberry in 1879, cotton gabardine is a tightly woven and breathable fabric that protects against wind and rain.</p>
-      <p>Raglan sleeves and a concealed button closure complement the clean tailored lines.
-      <p>The piece is finished with a distinctive check undercollar.
+    <article class="product-description-text">
+      <p>A refined car coat crafted in protective cotton gabardine.<br>
+      Invented by Thomas Burberry in 1879, cotton gabardine is a tightly woven and breathable fabric that protects against wind and rain.<br>
+      Raglan sleeves and a concealed button closure complement the clean tailored lines.<br>
+      The piece is finished with a distinctive check undercollar.<br>
     </article>
-    <article class="product-description-param">
-    <p>Coat length: 98cm/38.6in. This is based on a size UK 48 as proportions change slightly according to size.</p>
-    <p>Outer: 100% cotton</p>
-    <p>Check lining: 100% cotton</p>
-    <p>Sleeve lining: 100% viscose</p>
-    <p>Buttons: buffalo horn</p>
-    <p>Specialist dry clean</p>
-    <p>Made in Europe</p>
-    <p>Item 39428531</p>
+    <article class="product-description-text">
+      Coat length: 98cm/38.6in. This is based on a size UK 48 as proportions change slightly according to size.<br>
+      Outer: 100% cotton<br>
+      Check lining: 100% cotton<br>
+      Sleeve lining: 100% viscose<br>
+      Buttons: buffalo horn<br>
+      Specialist dry clean<br>
+      Made in Europe<br>
+      Item 39428531</p>
     </article>
   </div>
   
@@ -73,16 +79,20 @@
   </div>     
 
   <div class="shipping-returns-wrapper"> 
-    <header> 
+    <header class="shipping-returns-header"> 
       <h2>SHIPPING & RETURNS</h2>
       <img src="static/triangle_down.svg"> 
     </header>
   </div>
 
+  <div class="underline-wide">
+  </div>     
+
   <div class="recommendations-wrapper">
-    <header>
+    <div class="recommendations-header">
       <h2>WE RECOMMEND</h2>
-    </header>
+      <div class="underline-wide"></div>     
+    </div>
     <div class="recommendations-images-list">
       <ul>
         <li><img src="static/rec_1.jpg"></li>
