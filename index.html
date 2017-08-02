@@ -1,3 +1,6 @@
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
   <link rel="stylesheet" href="style.css">
@@ -31,7 +34,7 @@
       <p class="product-id">Item 39428531</p>
     </div>
     <div class="product-color"> 
-      <p class="product-color">Colour: Honey</p> <!-- хочу чтоб марджин 0 и сюда тоже применялся-->
+      <p class="product-color">Colour: Honey</p>
     </div> 
   
     <div class="product-colorselector-wrapper">
@@ -55,10 +58,10 @@
   <div class="product-description-wrapper">
     <header class="product-description-header">
       <h2>DESCRIPTION</h2>
-      <img src="static/triangle_up.svg"> 
+      <img width="10px" height="10px" src="static/triangle_up.svg"> 
     </header>
     <article class="product-description-text">
-      <p>A refined car coat crafted in protective cotton gabardine.<br>
+      <p class="product-description-p">A refined car coat crafted in protective cotton gabardine.<br>
       Invented by Thomas Burberry in 1879, cotton gabardine is a tightly woven and breathable fabric that protects against wind and rain.<br>
       Raglan sleeves and a concealed button closure complement the clean tailored lines.<br>
       The piece is finished with a distinctive check undercollar.<br>
@@ -91,40 +94,39 @@
   <div class="recommendations-wrapper">
     <div class="recommendations-header">
       <h2>WE RECOMMEND</h2>
-      <div class="underline-wide"></div>     
     </div>
-    <div class="recommendations-images-list">
-      <ul>
-        <li><img src="static/rec_1.jpg"></li>
-        <li><img src="static/rec_2.jpg"></li>
-        <li><img src="static/rec_3.jpg"></li>
-        <li><img src="static/rec_4.jpg"></li>
-      </ul>    
+    <div class="recommendations-block">
+        <a class="recommendations-item" href=""><img width="130px" height="174px" src="static/rec_1.jpg">
+          <h3 class="recommend-h3">Emroided Hooded</h3>
+          <h5 class="recommend-h5">27 000 руб.</h5></a>
+        <a class="recommendations-item" href=""><img width="130px" height="174px" src="static/rec_2.jpg">
+          <h3 class="recommend-h3">Relaxed Fit Stretch Jeans</h3>
+          <h5 class="recommend-h5">22 500 руб.</h5></a>
+        <a class="recommendations-item" href=""><img width="130px" height="174px" src="static/rec_3.jpg">
+          <h3 class="recommend-h3">Leather and House Check</h3>
+          <h5 class="recommend-h5">120 000 руб.</h5></a>
+        <a class="recommendations-item" href=""><img width="130px" height="174px" src="static/rec_4.jpg">
+          <h3 class="recommend-h3">Leather Wingtip Check</h3>
+          <h5 class="recommend-h5">46 000 руб.</h5></a>
     </div> 
   </div>
 
   <div class="more-wrapper"> 
     <header>
-      <h2>MORE FOR YOU<h2>
+      <h2 class="more-h2">MORE FOR YOU<h2>
     </header>
-    <ul class="more-list">
-      <li>Men’s Black Trench Coats</li>
-      <li>Men’s Short Trench Coats</li>
-      <li>Men’s Long Trench Coats</li>
-    </ul>
+    <a class="more-a" href="">Men’s Black Trench Coats</a>
+    <a class="more-a" href="">Men’s Short Trench Coats</a>
+    <a class="more-a" href="">Men’s Long Trench Coats</a> 
   </div>
 
   
   <footer>
     <div class="footer-wrapper"> 
-      <div class="footer-ship-lang"> 
-
         <button class="shipping-country-button">Shipping country: Russian Federation</button>
-        <button class="language-button">Shipping country: Russian Federation</button>
-      </div>
-    <div class="footer-help"> 
-      <h4>Need help?</h4>
-      <a href="index.html">Find out more and contact us</a>     
+        <button class="language-button">Language: English</button>
+      <h4 class="footer-h4">Need help?</h4>
+      <a class="footer-a" href="index.html">Find out more and contact us</a>     
     </div>
   </footer> 
 
