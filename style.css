@@ -125,8 +125,9 @@ body {
   display: flex;
   flex-direction: column;
   font-size: 12px;
-  line-height: 1.17;
-  font-family: Raleway;
+  line-height: 1rem;
+  font-family: Raleway serif;
+  font-weight: normal;
 }
 .button-margin {
   margin-bottom: 1rem;
@@ -142,7 +143,7 @@ body {
 .product-footer-buttons .findinstore-button {
   border-radius: 2px;
   border: solid 1px #999999;
-  border: solid 1px var(--warm-grey);
+  background-color: #ffffff;
 }
 .product-footer-buttons .sizehelp-button {
 
@@ -158,6 +159,7 @@ body {
 .product-description-wrapper { 
   margin-left: 1rem;
   margin-right: 1rem;
+  margin-top: 1rem;
 }
 .product-description-header {
   display: flex;
@@ -182,31 +184,34 @@ body {
   line-height: 24px;
   text-align: left;
   color: #171717;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.5rem;
   font-weight: 570;
 }
 .product-description-p{
   margin: 0 !important;
   padding: 0;
+  padding-bottom: 1.68em;
 }
 
 .shipping-returns-header {
   display: flex;
   justify-content: space-between;
   margin: 1rem;
+  margin-bottom: 1.1rem;
+  align-items: center;
 }
 .shipping-returns-header h2{
   font-family: Raleway;
   font-size: 16px;
   font-weight: bold;
-  line-height: 1.19;
+  line-height: 22px;
   text-align: left;
   color: #171717;
 }
 .recommendations-header {
   display: flex;
   margin: 1rem;
-  margin-top: 2.3rem;
+  margin-top: 33px;
   margin-bottom: 0.5rem;
   
 }
@@ -217,7 +222,7 @@ body {
   line-height: 1.19;
   text-align: left;
   color: #171717;
-  padding-bottom: 0.5rem;
+  padding-bottom: 10px;
   border-bottom: solid 1px #171717;
 }
 
@@ -241,7 +246,7 @@ body {
     font-family: Lora;
     font-size: 1rem;
     font-weight: normal;
-    line-height: 1.25;
+    line-height: 1.24;
     text-align: left;
     color: #111111;
     max-width: 95%;
@@ -266,9 +271,10 @@ body {
     margin-left: 1rem;
     margin-right: 57%;
     margin-bottom: 1.5rem;
-    margin-top: 1.1rem;
-    padding-bottom: 0.5rem;
-    border-bottom: solid 2px #171717
+    margin-top: 16px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #171717;
+    
 }
 
 .more-a {
@@ -280,12 +286,13 @@ body {
     color: #171717;
     text-decoration: none;
     margin: 1rem 1rem;
+    line-height: 17px;
 }
 
 footer {
-    margin-top: 4.25rem;
+    margin-top: 4.15rem;
     padding: 1rem;
-    background-color: #ffffff;
+    background-color: #f0f0f0;
 }
 
 .shipping-country-button {
